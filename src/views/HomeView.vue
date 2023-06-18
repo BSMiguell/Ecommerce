@@ -22,8 +22,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.index {
-  z-index: 9999;
-}
-</style>
+<style scoped></style>
