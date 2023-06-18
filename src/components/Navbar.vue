@@ -3,10 +3,13 @@
     <v-btn icon>
       <v-icon>mdi-magnify</v-icon>
     </v-btn>
+
     <v-divider vertical class="ml-1 mr-3"></v-divider>
+
     <v-btn icon>
       <v-icon>mdi-menu</v-icon>
     </v-btn>
+
     <v-toolbar-title
       ><span class="caption">Select</span> <br />Category</v-toolbar-title
     >
@@ -28,14 +31,19 @@
     <v-spacer></v-spacer>
 
     <v-divider vertical class=""></v-divider>
+
     <v-btn icon class="mx-1">
       <v-icon>mdi-account-outline</v-icon>
     </v-btn>
+
     <v-divider vertical class=""></v-divider>
+
     <v-btn icon class="mx-1">
       <v-icon>mdi-heart-outline</v-icon>
     </v-btn>
+
     <v-divider vertical class=""></v-divider>
+
     <v-btn icon class="mx-1">
       <v-badge color="#94D0EF" content="2">
         <v-icon>mdi-cart-outline</v-icon>
@@ -52,6 +60,7 @@ export default {};
 .v-toolbar__title {
   font-size: 1rem !important;
 }
+
 .v-badge__badge {
   font-size: 10px !important;
   height: 18px !important;

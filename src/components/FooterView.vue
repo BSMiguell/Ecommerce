@@ -17,6 +17,7 @@
           </v-toolbar>
           <v-card-text class="grey--text"> &#169; 2021 -2022 </v-card-text>
         </v-col>
+
         <v-col cols="12" sm="2">
           <v-card-text class="white--text pt-0">
             <h3>Get Help</h3>
@@ -28,6 +29,7 @@
           <v-card-text class="grey--text mt-n4"> Payment Options </v-card-text>
           <v-card-text class="grey--text mt-n4"> Contact US </v-card-text>
         </v-col>
+
         <v-col cols="12" sm="2">
           <v-card-text class="white--text pt-0">
             <h3>About US</h3>
@@ -39,6 +41,7 @@
             CA Supply Chains Act
           </v-card-text>
         </v-col>
+
         <v-col cols="12" sm="4">
           <v-card-text class="pt-0">
             <v-btn

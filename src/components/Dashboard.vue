@@ -21,6 +21,7 @@
         </v-col>
       </v-row>
     </v-card>
+
     <v-card tile class="mx-16 mt-n10 card1" color="white">
       <v-row>
         <v-col cols="12" sm="8" class="pr-0">
@@ -53,6 +54,7 @@
             </v-row>
           </v-card>
         </v-col>
+
         <v-col cols="12" sm="4" class="pl-0">
           <v-card height="250px" tile flat color="#6857E1">
             <v-row>
@@ -84,6 +86,7 @@
           </v-card>
         </v-col>
       </v-row>
+
       <v-row>
         <v-col cols="12" sm="3" class="mt-n6 pr-0">
           <v-toolbar flat outlined>
@@ -95,6 +98,7 @@
             </v-btn>
           </v-toolbar>
         </v-col>
+
         <v-col cols="12" sm="3" class="mt-n6 px-0">
           <v-toolbar flat outlined>
             <v-toolbar-title>
@@ -106,6 +110,7 @@
             </v-btn>
           </v-toolbar>
         </v-col>
+
         <v-col cols="12" sm="3" class="mt-n6 px-0">
           <v-toolbar flat outlined class="">
             <v-toolbar-title>SHOW: <span>12</span></v-toolbar-title>
@@ -115,6 +120,7 @@
             </v-btn>
           </v-toolbar>
         </v-col>
+
         <v-col cols="12" sm="3" class="mt-n6 pl-0">
           <v-toolbar flat outlined>
             <v-btn icon class="mr-1">
@@ -132,6 +138,7 @@
             <v-badge color="#3853D8" content="3" class="mr-2"></v-badge>
           </v-toolbar>
         </v-col>
+
         <v-col cols="3" class="py-0 pr-0 mt-n3">
           <v-card flat outlined tile>
             <v-toolbar flat>
@@ -259,6 +266,7 @@
             </v-chip-group>
           </v-card>
         </v-col>
+
         <v-col cols="9" class="mt-n3">
           <v-row>
             <v-col
@@ -308,9 +316,11 @@
             </v-col>
           </v-row>
         </v-col>
+
         <v-col cols="12" sm="3" class="mt-n3 pr-0 pb-0">
           <v-toolbar flat outlined> </v-toolbar>
         </v-col>
+
         <v-col cols="12" sm="3" class="mt-n3 px-0 pb-0">
           <v-toolbar flat outlined>
             <v-btn icon class="mr-1">
@@ -319,11 +329,13 @@
             <v-divider vertical></v-divider>
           </v-toolbar>
         </v-col>
+
         <v-col cols="12" sm="3" class="mt-n3 px-0 pb-0">
           <v-toolbar flat outlined class="text-center">
             <v-pagination v-model="page" :length="4"></v-pagination>
           </v-toolbar>
         </v-col>
+
         <v-col cols="12" sm="3" class="mt-n3 pl-0 pb-0">
           <v-toolbar flat outlined>
             <v-btn icon class="mr-1">
@@ -334,6 +346,7 @@
         </v-col>
       </v-row>
     </v-card>
+
     <v-card
       color="#EFF0F2"
       height="250px"
@@ -348,6 +361,7 @@
             SUBSCRIBE TO OUR NEWSLETTER
           </h4>
         </v-col>
+
         <v-col cols="12" sm="12">
           <h6 class="text-center grey--text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
@@ -356,6 +370,7 @@
             ducimus.
           </h6>
         </v-col>
+
         <v-col cols="12" sm="12">
           <v-card flat color="transparent" class="d-flex justify-center">
             <v-text-field
@@ -400,6 +415,7 @@ export default {
         href: "breadcrumbs_shoes",
       },
     ],
+
     styles: [
       { title: "Lifestyle", count: "1" },
       { title: "Running", count: "23" },
@@ -411,12 +427,14 @@ export default {
       { title: "Golf", count: "15" },
       { title: "Skateboarding", count: "22" },
     ],
+
     brands: [
       { title: "Lifestyle", state: true },
       { title: "Running", state: false },
       { title: "Training & Gym", state: true },
       { title: "Basketball", state: false },
     ],
+
     sizes: [
       "35",
       "36",
@@ -431,6 +449,7 @@ export default {
       "45",
       "46",
     ],
+
     clothes: [
       {
         class: "pa-0",
@@ -527,15 +546,18 @@ export default {
 .container {
   padding: 0px !important;
 }
+
 .v-btn.withoutupercase {
   text-decoration: none;
 }
+
 .v-chip.v-size--default {
   border-radius: 50px !important;
   font-size: 14px !important;
   height: 40px !important;
   width: 40px !important;
 }
+
 .v-card--reveal {
   align-items: center;
   bottom: 0;
@@ -544,9 +566,11 @@ export default {
   position: absolute;
   width: 100%;
 }
+
 .card1 {
   z-index: 10;
 }
+
 .card2 {
   z-index: 1;
 }
